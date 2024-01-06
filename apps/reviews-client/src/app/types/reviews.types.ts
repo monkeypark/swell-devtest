@@ -8,8 +8,3 @@ export interface ReviewExt extends Review {
 	company: Company;
 	user: User;
 }
-
-export interface ReviewsResponse {
-	reviews: ReviewExt[];
-	reviewsCount?: number;
-}
